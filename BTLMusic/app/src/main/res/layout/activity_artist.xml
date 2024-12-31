@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.ArtistActivity">
+
+    <ImageButton
+        android:id="@+id/artist_btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white_BackGroud"
+        app:srcCompat="@drawable/exit" />
+
+    <ImageView
+        android:id="@+id/artist_imgArtist"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/artist_txtNameArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:padding="10sp"
+        android:text="TextView" />
+
+    <ListView
+        android:id="@+id/artist_lvSongArtist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white_BackGroud">#FDF6FE</color>
+    <color name="blue">#0E61EF</color>
+    <color name="yellow">#FFC107</color>
+    <color name="bluelight">#66C0E9</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_dark">#2C3E50</color> <!-- Xanh dương đậm -->
+    <color name="primary_dark_alt">#6C63FF</color> <!-- Tím thay thế -->
+
+    <!-- Background -->
+    <color name="background_light">#F7F9FC</color> <!-- Trắng xám nhạt -->
+    <color name="main_background">#BDD1C5</color>
+    <!-- Text Colors -->
+    <color name="primary_text">#2D2D2D</color> <!-- Đen xám -->
+    <color name="secondary_text">#9E9E9E</color> <!-- Xám nhẹ -->
+
+    <!-- Accent Colors (Optional for Buttons/Highlights) -->
+    <color name="accent_color">#FF6F61</color> <!-- Đỏ cam sáng -->
+    <color name="accent_color_alt">#4CAF50</color> <!-- Xanh lá nổi bật -->
+</resources>
