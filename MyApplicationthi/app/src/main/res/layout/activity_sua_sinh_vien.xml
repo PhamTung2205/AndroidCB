@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SuaSinhVien">
+    <EditText
+        android:id="@+id/sua_Masinhvien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:textSize="20sp"
+        android:enabled="false"
+        android:textColor="@color/black"
+        android:hint="Mã Sinh Viên"/>
+    <EditText
+        android:id="@+id/sua_Tensinhvien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:textSize="20sp"
+        android:hint="Tên Sinh Viên"/>
+    <EditText
+        android:id="@+id/sua_Gioitinhsinhvien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:textSize="20sp"
+        android:hint="Giới tính"/>
+    <EditText
+        android:id="@+id/sua_Chuyennganhsinhvien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:textSize="20sp"
+        android:hint="Chuyên ngành"/>
+    <EditText
+        android:id="@+id/sua_Diemtbsinhvien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:textSize="20sp"
+        android:hint="điểm tb"/>
+    <EditText
+        android:id="@+id/sua_Daichisinhvien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:textSize="20sp"
+        android:hint="địa chỉ"/>
+    <Button
+        android:id="@+id/btnSuaSinhVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sửa"/>
+
+</LinearLayout>
